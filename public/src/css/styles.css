@@ -1,0 +1,67 @@
+/* P: https://colorhunt.co/palette/fdf1dba6cb12e0054384253e*/
+
+body {
+  margin: 0px;
+  background-color: #fdf1db;
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+  fieldset#login_view {
+    margin: 0 auto;
+  }
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+  fieldset#login_view {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+fieldset#login_view {
+  background-color: #a6cb12;
+  padding: 25px;
+}
+
+h2#logintitle {
+  color: #e00543;
+  text-align: center;
+}
+
+a#restorepassword {
+  color: #84253e;
+  font-size: 13px;
+}
+
+hr.line {
+  border-color: #fdf1db;
+  border-width: 2px;
+}
+
+input.btn {
+  color: #fdf1db;
+  background-color: #e00543;
+}
+input.btn:hover {
+  color: #fdf1db;
+  background-color: #e00543;
+}
+
+img.logofieldview {
+  width: 100%;
+  margin: 0 auto;
+  -webkit-filter: blur(0px);
+  -moz-filter: blur(0px);
+  -o-filter: blur(0px);
+  -ms-filter: blur(0px);
+  filter: blur(0px);
+}
+
+fieldset#register-rules {
+  background-color: #fdf1db;
+  color: #e00543;
+  padding: 25px;
+  border-radius: 5px;
+}
