@@ -7,11 +7,6 @@ let userSchema = new Schema({
           type: String,
           required: [true, 'El nombre es necesario']
      },
-     email: {
-          type: String,
-          unique: true,
-          required: [true, 'El correo es necesario']
-     },
      pw: {
           type: String,
           required: [true, 'La contraseña es obligatoria']
@@ -31,7 +26,7 @@ userSchema.methods.toJSON = function () {
 
      let user = this;
      let userObject = user.toObject();
-     delete userObject.password;
+     delete userObject.pw;
 
      return userObject;
 };

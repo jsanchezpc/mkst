@@ -25,6 +25,7 @@ fieldset#login_view {
   padding: 25px;
 }
 
+
 h2#logintitle {
   color: #e00543;
   text-align: center;
@@ -42,7 +43,7 @@ hr.line {
 
 input.btn {
   color: #fdf1db;
-  background-color: #e00543;
+  background-color: #e00543;   
 }
 input.btn:hover {
   color: #fdf1db;
@@ -57,6 +58,7 @@ img.logofieldview {
   -o-filter: blur(0px);
   -ms-filter: blur(0px);
   filter: blur(0px);
+  cursor: pointer;
 }
 
 fieldset#register-rules {
@@ -64,4 +66,22 @@ fieldset#register-rules {
   color: #e00543;
   padding: 25px;
   border-radius: 5px;
+}
+
+p.custom-btn {
+  font-size: 23px;
+  text-align: center;
+  color: #fdf1db;
+  font-weight: bold;
+  background-color: #e00543;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #84253e;
+}
+
+p.custom-btn:hover {
+  background-color: #cc043c;
+  color: #e4d8c4;
+  cursor: pointer;  
 }

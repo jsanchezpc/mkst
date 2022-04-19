@@ -8,91 +8,9 @@
     <link rel="stylesheet" type="text/css" href="src/css/styles.css" />
     <link rel="shortcut icon" href="src/img/mkst_logo.png" type="image/png" />
   </head>
-
   <body>
     <!--login-->
-    <div id="login">
-      <div class="container">
-        <fieldset id="login_view">
-          <img src="src/img/mkst_logo.png" alt="logo" class="logofieldview" />
-          <!--login-->
-          <form action="/signup" method="get">
-            <label for="mail">Your email</label>
-            <input
-              name="mail"
-              class="u-full-width"
-              type="email"
-              placeholder="your@email.com"
-              id="mail"
-            />
-            <label for="password">Your password</label>
-            <input
-              name="pw"
-              class="u-full-width"
-              type="password"
-              placeholder="Password"
-              id="password"
-            />
-            <label
-              for="
-            rememberbox"
-            >
-              <input type="checkbox" name="remember" id="rememberbox" />
-              Remember me
-            </label>
-
-            <input class="u-full-width btn" type="submit" value="Log In" />
-            <a href="/restorepassword" id="restorepassword"
-              >Forgot your password?</a
-            >
-          </form>
-          <hr class="line" />
-          <!--register-->
-          <h3>New account</h3>
-          <fieldset id="register-rules">
-            <ul>
-              <li>Username: 3 - 13 characters</li>
-              <li>Password: 6 - 16 characters</li>
-            </ul>
-          </fieldset>
-          <form action="/register" method="post">
-            <label for="username">Your username</label>
-            <input
-              name="username"
-              class="u-full-width"
-              type="text"
-              placeholder="@Merkastock"
-              id="username"
-            />
-            <label for="reg-mail">Your email</label>
-            <input
-              name="email"
-              class="u-full-width"
-              type="email"
-              placeholder="your@email.com"
-              id="reg-mail"
-            />
-            <label for="reg-password">Your password</label>
-            <input
-              name="pw"
-              class="u-full-width"
-              type="password"
-              placeholder="Password"
-              id="reg-password"
-            />
-            <label for="reg-password-confirm">Confirm password</label>
-            <input
-              class="u-full-width"
-              type="password"
-              placeholder="Confirm your password"
-              id="reg-password-confirm"
-            />
-            <input class="u-full-width btn" type="submit" value="Create" />
-          </form>
-        </fieldset>
-      </div>
-    </div>
-
-    <script src="src/js/app.js"></script>
+    <div id="app"></div>
+    <script src="src/js/login.js"></script>
   </body>
 </html>
